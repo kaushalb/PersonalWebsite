@@ -84,7 +84,7 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={580}
-                            to="AboutMet"
+                            to="AboutMe"
                             className="navbar--content"
                         > 
                             About Me 
