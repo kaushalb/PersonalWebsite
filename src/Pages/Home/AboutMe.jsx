@@ -7,17 +7,16 @@ export default function AboutMe() {
         <div className="hero--section--content--box about--section--box">
           <div className="hero--section--content">
             <p className="section--title">About</p>
-            <h1 className="skills-section--heading">About Me</h1>
+            <h1 className="skills-section--heading">Hey, I'm Kaushal Bommena</h1>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
-              tempora numquam sint odit optio.
+              I'm a passionate full-stack developer with a knack for building scalable, user-friendly applications. 
+              With expertise in both front-end and back-end technologies, I craft seamless digital experiences and robust 
+              systems. Whether designing intuitive user interfaces, optimizing server-side performance, or architecting 
+              distributed systems, I thrive on solving complex problems and delivering impactful solutions. 
             </p>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-              officiis sit debitis omnis harum sed veniam quasi dicta accusamus
-              recusandae?
+              Outside of coding, I’m constantly exploring new technologies to stay ahead in the ever-evolving tech landscape. Reach out 
+              to me and get in touch! Feel free to explore and check out my projects below!
             </p>
           </div>
         </div>

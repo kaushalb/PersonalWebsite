@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll"; 
+import ContactMeModal from "./ContactMeModal";
 
 function Navbar() {
     const [active, setActive] = useState(false);
+    const [modalOpen, setModalOpen] = useState(false); 
+
     
     const toggleNav = () => {
         setActive(!active)
@@ -56,10 +59,10 @@ function Navbar() {
                             smooth={true}
                             offset={-70}
                             duration={580}
-                            to="heroSection"
+                            to="AboutMe"
                             className="navbar--content"
                         > 
-                            HOME 
+                            About Me 
                         </Link>
                     </li>
                     <li>
@@ -76,33 +79,20 @@ function Navbar() {
                             Portfolio 
                         </Link>
                     </li>
-                    <li>
-                        <Link 
-                            onClick={closeMenu}
-                            activeClass="navbar--active-content"
-                            spy={true}
-                            smooth={true}
-                            offset={-70}
-                            duration={580}
-                            to="AboutMe"
-                            className="navbar--content"
-                        > 
-                            About Me 
-                        </Link>
-                    </li>
+                    <button
+                        onClick={() => setModalOpen(true)}
+                        activeClass="navbar--active-content"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={580}
+                        to="Contact"
+                        className="btn btn-outline-primary">
+                            Contact Me
+                    </button>
                 </ul>
+                <ContactMeModal isOpen={modalOpen} onClose={() => setIsModalOpen(false)} />
             </div>
-            <Link
-            onClick={closeMenu}
-            activeClass="navbar--active-content"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={580}
-            to="Contact"
-            className="btn btn-outline-primary">
-                Contact Me
-            </Link>
         </nav>
     )
 }
