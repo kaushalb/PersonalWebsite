@@ -49,7 +49,7 @@ function Navbar() {
                 <span className="navbar_burger_line"></span>
             </a>
 
-            <div className={`navbar--items ${ active ? "active":"" }`}>
+            <div className={`navbar--items ${active ? "active" : ""}`} style={{ height: 80 }}>
                 <ul>
                     <li>
                         <Link 
