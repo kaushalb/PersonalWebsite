@@ -107,7 +107,7 @@ body {
     line-height: 58px;
   }
   /* Heading 3 */
-  h2 {
+  h3 {
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
@@ -155,7 +155,7 @@ body {
   /* Portfolio, Testimonial & Contact Me */
   .sub--title {
     color: var(--heading-color);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     line-height: 24px;
   }
@@ -201,7 +201,7 @@ body {
   .hero--section--title--color{
     color: var(--primary);
   }
-  
+
   .hero--section--title--description{
     color: var(--darkblue);
     font-size: 24px;
@@ -330,6 +330,7 @@ body {
   /* About Us */
 .about--section {
     display: grid;
+    font-size: 22px;
     padding: 133.3px 85.3px;
     align-items: center;
     gap: 114.6px;
@@ -656,3 +657,10 @@ body {
   }
   
   /* Responsive Screens Ends*/
+
+  .circular-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
