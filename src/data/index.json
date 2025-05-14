@@ -4,28 +4,28 @@
       "id": "1",
       "src": "./img/placeholder-image.png",
       "title": "Object Detection and Classification",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "A Python script that captures video from the webcam using OpenCV, performs real-time object detection with a pre-trained model (YOLO), and provides real-time audio feedback of detected objects using gTTS (Google Text-to-Speech). The script continues running until the user presses the 'q' key to exit.",
       "link": "View In Github"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
       "title": "Review Website",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "A website that allows you to browse through a catalog of Movies/TV shows and rate them",
       "link": "View In Github"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
       "title": "Financial Agent App",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "description": "",
       "link": "View In Github"
     }, 
     {
       "id": "4",
       "src": "./img/placeholder-image.png",
-      "title": "New",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "Beacon Health",
+      "description": "Tech meets non-profit healthcare in this platform that will help you navigate through the complexities of the American Healthcare system",
       "link": "View In Github"
     }
   ]
