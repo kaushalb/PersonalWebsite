@@ -332,6 +332,7 @@ body {
     display: grid;
     font-size: 22px;
     padding: 133.3px 85.3px;
+    padding-bottom: 40px;
     align-items: center;
     gap: 114.6px;
     grid-template-columns: repeat(2, 1fr);
