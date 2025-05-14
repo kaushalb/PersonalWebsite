@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll"; 
 import ContactMeModal from "./ContactMeModal";
+import { AnimatePresence } from "framer-motion";
 
 function Navbar() {
     const [active, setActive] = useState(false);
@@ -15,23 +16,23 @@ function Navbar() {
         setActive(false)
     }
 
-    useEffect[() => {
+    useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth <= 500) {
-                closeMenu
+                closeMenu(); // also need to *call* this function
             }
         }
-
+    
         window.addEventListener("resize", handleResize);
-
+    
         return () => {
             window.removeEventListener("resize", handleResize)
         }
-    }, []];
+    }, []);
 
     useEffect(() => {
         if (window.innerWidth <= 1200) {
-            closeMenu
+            closeMenu();
         }
     }, []);
 
@@ -91,7 +92,7 @@ function Navbar() {
                             Contact Me
                     </button>
                 </ul>
-                <ContactMeModal isOpen={modalOpen} onClose={() => setIsModalOpen(false)} />
+                <ContactMeModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
             </div>
         </nav>
     )
