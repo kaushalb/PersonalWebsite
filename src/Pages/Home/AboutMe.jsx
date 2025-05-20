@@ -9,7 +9,9 @@ export default function AboutMe() {
             <p className="section--title">About</p>
             <h1 className="skills-section--heading">Hey, I'm Kaushal Bommena</h1>
             <p className="hero--section-description">
-              I'm a passionate full-stack developer with a knack for building scalable, user-friendly applications. 
+              I'm a passionate full-stack developer with a knack for building scalable, user-friendly applications.
+            </p>
+            <p>
               With expertise in both front-end and back-end technologies, I craft seamless digital experiences and robust 
               systems. Whether designing intuitive user interfaces, optimizing server-side performance, or architecting 
               distributed systems, I thrive on solving complex problems and delivering impactful solutions. 
